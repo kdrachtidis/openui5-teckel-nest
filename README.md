@@ -1,6 +1,6 @@
 # Teckel Dashboard
 
-![https://cloudplatformdesign.mo.sap.corp/teckel](https://cloudplatformdesign.mo.sap.corp/teckel/img/Teckel-Default@1x.png "Teckel")
+![https://kdrachtidis.github.io/bootstrap-teckel-tutorial/](https://kdrachtidis.github.io/bootstrap-teckel-tutorial/img/Teckel-Default@1x.png "Teckel")
 
 Repository for the dashboard for analyzing data created by our [user research tracking tool for behavioral analysis](https://github.com/SAP/ux-tracking-tool) (Teckel).<br />
 This particular dashboard is based on test data from [this](https://ux-teckel.github.io/openui5-tool-landscape-prototype/) prototype - Test it!
