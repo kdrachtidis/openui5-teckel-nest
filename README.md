@@ -1,4 +1,4 @@
-# Teckel Dashboard
+# Teckel's nest
 
 ![https://kdrachtidis.github.io/bootstrap-teckel-tutorial/](https://kdrachtidis.github.io/bootstrap-teckel-tutorial/img/Teckel-Default@1x.png "Teckel")
 
