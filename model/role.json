@@ -1,0 +1,17 @@
+[
+  {
+    "role": "Developer",
+    "count": 12,
+    "percentage": 60
+  },
+  {
+    "role": "Manager",
+    "count": 5,
+    "percentage": 25
+  },
+  {
+    "role": "Designer",
+    "count": 3,
+    "percentage": 15
+  }
+]

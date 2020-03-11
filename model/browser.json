@@ -1,0 +1,32 @@
+[
+  {
+    "browser": "Chrome",
+    "count": 9,
+    "percentage": 45
+  },
+  {
+    "browser": "InternetExplorer",
+    "count": 2,
+    "percentage": 10
+  },
+  {
+    "browser": "Firefox",
+    "count": 3,
+    "percentage": 15
+  },
+  {
+    "browser": "Safari",
+    "count": 5,
+    "percentage": 25
+  },
+  {
+    "browser": "Edge",
+    "count": 1,
+    "percentage": 5
+  },
+  {
+    "browser": "Others",
+    "count": 0,
+    "percentage": 0
+  }
+]

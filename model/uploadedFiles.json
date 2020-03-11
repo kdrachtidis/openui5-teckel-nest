@@ -1,0 +1,68 @@
+{
+	"items" : [
+		{
+			"documentId" : "1",
+			"visibleEdit" : true,
+			"visibleDelete" : true,
+			"fileName" : "Session-1.csv",
+			"mimeType" : "text/csv",
+			"thumbnailUrl" : "",
+			"attributes":[
+				{
+					"title":"Name",
+					"text":"Session 1 on 2017-07-01"
+				},
+				{
+					"title":"Uploaded On",
+					"text":"2017-07-28"
+				},
+				{
+					"title":"Role",
+					"text":"Manager"
+				}
+			]
+		}, {
+			"documentId" : "2",
+			"visibleEdit" : true,
+			"visibleDelete" : true,
+			"fileName" : "Session-2.csv",
+			"mimeType" : "text/csv",
+			"thumbnailUrl" : "",
+			"attributes":[
+				{
+					"title":"Name",
+					"text":"Session 2 on 2017-07-02"
+				},
+				{
+					"title":"Uploaded On",
+					"text":"2017-07-28"
+				},
+				{
+					"title":"Role",
+					"text":"Developer"
+				}
+			]
+		}, {
+			"documentId" : "3",
+			"visibleEdit" : true,
+			"visibleDelete" : true,
+			"fileName" : "Session-3.csv",
+			"mimeType" : "text/csv",
+			"thumbnailUrl" : "",
+			"attributes":[
+				{
+					"title":"Name",
+					"text":"Session 3 on 2017-07-03"
+				},
+				{
+					"title":"Uploaded On",
+					"text":"2017-07-30"
+				},
+				{
+					"title":"Role",
+					"text":"Developer"
+				}
+			]
+		}
+	]
+}

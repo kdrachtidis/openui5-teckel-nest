@@ -1,0 +1,275 @@
+/*********************************************************************/
+/*                        General Formatting                         */
+/*********************************************************************/
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sapUiSmallMarginTop{
+  margin-top: 0px;
+  padding: 0px !important;
+}
+
+/******************************************************************/
+/*                        D3 - General                           */
+/******************************************************************/
+.bar {
+  fill: #5cbae6;
+}
+.axis {
+	  font-size: 12px;
+}
+.line {
+  fill: none;
+  stroke: #444;
+  stroke-width: 1.5px;
+}
+svg {
+    width: 100%;
+    height: 100%;
+    position: center;
+}
+text{
+    font-family: Arial,Helvetica,sans-serif;
+    color: #333333;
+    font-size: 12px;
+}
+rect {
+    stroke-width: 2;
+}
+
+/******************************************************************/
+/*                        D3 - Timeline                           */
+/******************************************************************/
+.area {							
+  fill: url(#area-gradient);					
+  stroke-width: 0px;			
+}
+.timeline {
+  width: 100%;
+  height: 250px;
+}
+
+/******************************************************************/
+/*                          D3 - Waffle                           */
+/******************************************************************/
+.waffle {
+  margin-bottom: 10px;
+  margin-left: calc(50% - 5rem);
+  width: 10rem;
+  height: calc(10rem + 10px);
+}
+.waffleLegend {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  width: 15rem;
+  height: 60px;
+  margin: 10px;
+  margin-left: calc(50% - 5rem);
+  margin-bottom: 0;
+}
+
+.waffle2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 10rem;
+  height: calc(10rem + 30px);
+}
+.waffleLegend2 {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  width: 15rem;
+  height: 60px;
+  margin: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+/******************************************************************/
+/*                        D3 - BarChart                           */
+/******************************************************************/
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar-chart{
+  width: 100%;
+  height: 300px;
+  content: inline-block;
+}
+
+/******************************************************************/
+/*                     D3 - Nested BarChart                       */
+/******************************************************************/
+.axis path{
+  fill: none;
+  stroke: #000;
+}
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.axis .tick line {
+  stroke-width: 1;
+  stroke: rgba(0, 0, 0, 0.2);
+}
+.axisHorizontal path{
+  fill: none;
+}
+.axisHorizontal line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.axisHorizontal .tick line {
+  stroke-width: 1;
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+/******************************************************************/
+/*                         BLOCK LAYOUT                           */
+/******************************************************************/
+.noPadding .sapUiBlockCellContent{
+  padding: 0px !important;
+}
+
+/* --------------------------- Size M ----------------------------*/
+.sapUiBlockLayoutSizeM .smallPadding .sapUiBlockCellContent{
+  padding: 1rem !important;
+}
+.sapUiBlockLayoutSizeM .mediumPadding .sapUiBlockCellContent{
+  padding: 2rem !important;
+}
+
+/* --------------------------- Size L ----------------------------*/
+.sapUiBlockLayoutSizeL .smallPadding  .sapUiBlockCellContent{
+  padding: 1rem !important;
+}
+.sapUiBlockLayoutSizeL .mediumPadding .sapUiBlockCellContent{
+  padding: 2rem !important;
+}
+
+/* --------------------------- Size XL ---------------------------*/
+.sapUiBlockLayoutSizeXL .smallPadding .sapUiBlockCellContent{
+  padding: 1rem !important;
+}
+.sapUiBlockLayoutSizeXL .mediumPadding .sapUiBlockCellContent{
+  padding: 2rem !important;
+}
+.smallPadding{
+  padding-left: 1rem !important;
+}
+
+/******************************************************************/
+/*                    HEADER IN BLOCK LAYOUT                      */
+/******************************************************************/
+
+.headerText {
+  width: calc( 100% - 120px) !important;
+  text-align: left !important;
+  position: absolute;
+  top: 1.2vw;
+  left: 60px;
+  font-size: 3.7vw !important;
+  font-family: Helvetica !important;
+  font-weight: 100;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 5px #424242;
+}
+.headerSubText {
+  width: calc( 100% - 120px) !important;
+  text-align: left !important;
+  position: absolute;
+  top: 6vw;
+  left: 60px;
+  font-size: 2.5vw !important;
+  font-family: Helvetica !important;
+  font-weight: 100;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 5px #424242;
+}
+.sapUiBlockLayoutSizeS .headerText {
+  width: calc( 100% - 20px) !important;
+  text-align: center !important;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 3.7vw !important;
+  font-family: Helvetica !important;
+  font-weight: 100;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 5px #424242;
+}
+.sapUiBlockLayoutSizeS .headerSubText {
+  color: transparent !important;
+  text-shadow: none !important;
+}
+.dashboardTitle{
+  font-size: 1.3vw !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 1px #424242 !important;
+}
+.dashboardLink{
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+.dashboardName{
+  font-size: 2vw !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 1px #424242 !important;
+}
+.sapUiBlockLayoutSizeS .dashboardTitle{
+  font-size: 18px !important;
+}
+.sapUiBlockLayoutSizeM .dashboardTitle{
+  font-size: 18px !important;
+}
+.sapUiBlockLayoutSizeS .dashboardName{
+  font-size: 26px !important;
+}
+.sapUiBlockLayoutSizeM .dashboardName{
+  font-size: 26px !important;
+}
+.smallPaddingTop .sapUiBlockCellContent{
+  padding: 0 1rem 5rem 2rem !important;
+}
+.smallPaddingTopMiddle .sapUiBlockCellContent{
+  padding: 0 1rem 5rem 5rem !important;
+}
+.sapUiBlockLayoutSizeS .smallPaddingTopMiddle .sapUiBlockCellContent{
+  padding: 0 1rem 5rem 2rem !important;
+}
+.smallPaddingBottom .sapUiBlockCellContent{
+  padding: 32px 32px 50px 32px !important;
+}
+.row0{
+  background-color: #116464 !important;
+}
+#cell2{
+  padding-left: 2rem !important;
+}
+
+/******************************************************************/
+/*                NUMERIC CONTENT IN BLOCK LAYOUT                 */
+/******************************************************************/
+.sapMTileCnt {
+  min-width: 120px !important;
+  width: 100% !important;
+}
+.sapMNCValue{
+  width: 100% !important;
+}
+.sapMNCValueScr{
+  width: 100% !important;
+  text-align: center !important;
+}
+.sapMNC {
+  width: 100% !important;
+}
+.sapMTileCntFtrTxt{
+  text-align: center !important;
+}

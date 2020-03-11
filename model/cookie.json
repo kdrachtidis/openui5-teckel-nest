@@ -1,0 +1,12 @@
+[
+  {
+    "cookie": "true",
+    "count": 18,
+    "percentage": 90
+  },
+  {
+    "cookie": "false",
+    "count": 2,
+    "percentage": 10
+  }
+]

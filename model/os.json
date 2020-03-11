@@ -1,0 +1,22 @@
+[
+  {
+    "os": "Windows",
+    "count": 10,
+    "percentage": 50
+  },
+  {
+    "os": "Mac",
+    "count": 7,
+    "percentage": 35
+  },
+  {
+    "os": "iOS",
+    "count": 2,
+    "percentage": 10
+  },
+  {
+    "os": "Android",
+    "count": 1,
+    "percentage": 5
+  }
+]

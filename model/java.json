@@ -1,0 +1,12 @@
+[
+  {
+    "java": "true",
+    "count": 6,
+    "percentage": 30
+  },
+  {
+    "java": "false",
+    "count": 14,
+    "percentage": 70
+  }
+]

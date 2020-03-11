@@ -1,0 +1,78 @@
+<mvc:View controllerName="UI5FioriForTools.controller.Data" height="100%" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page showHeader="false">
+    <content>
+			<UploadCollection
+				id="UploadCollection"
+				maximumFilenameLength="55"
+				maximumFileSize="1000"
+				multiple="false"
+				instantUpload="true"
+				fileType="csv"
+				showSeparators="All"
+				change="onChange"
+				fileDeleted="onFileDeleted"
+				filenameLengthExceed="onFilenameLengthExceed"
+				fileRenamed="onFileRenamed"
+				fileSizeExceed="onFileSizeExceed"
+				selectionChange="onSelectionChange"
+				typeMissmatch="onTypeMissmatch"
+				uploadUrl="/teckel-dashboard/model"
+				uploadComplete="onUploadComplete"
+				beforeUploadStarts="onBeforeUploadStarts"
+				uploadTerminated="onUploadTerminated"
+				items="{path : '/items', templateShareable : 'true'}"
+				numberOfAttachmentsText="Recorded Sessions (8)"
+				mode="SingleSelectMaster"
+				class="sapUiSmallMarginTop">
+				<toolbar>
+					<OverflowToolbar id="myId" >
+						<Title id="attachmentTitle" />
+						<ToolbarSpacer />
+						<UploadCollectionToolbarPlaceholder />
+					</OverflowToolbar>
+				</toolbar>
+				<items>
+					<UploadCollectionItem
+						documentId="{documentId}"
+						fileName="{fileName}"
+						mimeType="{mimeType}"
+						thumbnailUrl="{thumbnailUrl}"
+						url="{url}"
+						enableEdit="{enableEdit}"
+						enableDelete="{enableDelete}"
+						visibleDelete="{visibleDelete}"
+						visibleEdit="{visibleEdit}"
+						attributes="{path : 'attributes', templateShareable : 'true'}"
+						statuses="{path : 'statuses', templateShareable : 'true'}"
+						markers="{path : 'markers', templateShareable : 'true'}"
+						selected="{selected}">
+						<attributes>
+							<ObjectAttribute
+								title="{title}"
+								text="{path : 'text', formatter : '.formatAttribute'}"
+								active="{active}"
+								press="onAttributePress"/>
+						</attributes>
+						<statuses>
+							<ObjectStatus
+								title="{title}"
+								text="{text}"
+								state="{state}"
+								icon="{icon}"
+								iconDensityAware="{iconDensityAware}"
+								textDirection="{textDirection}"/>
+						</statuses>
+						<markers>
+							<ObjectMarker
+								type="{type}"
+								press="onMarkerPress"/>
+						</markers>
+					</UploadCollectionItem>
+				</items>
+			</UploadCollection>
+			<VBox class="sapUiMediumMargin">
+				<Text text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet." />
+			</VBox>
+    </content>
+  </Page>
+</mvc:View>

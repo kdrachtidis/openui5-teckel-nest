@@ -1,0 +1,22 @@
+[
+  {
+    "screenWidth": "LargeDesktop",
+    "count": 13,
+    "percentage": 65
+  },
+  {
+    "screenWidth": "Desktop",
+    "count": 4,
+    "percentage": 20
+  },
+  {
+    "screenWidth": "Tablet",
+    "count": 0,
+    "percentage": 0
+  },
+  {
+    "screenWidth": "Phone",
+    "count": 3,
+    "percentage": 15
+  }
+]
