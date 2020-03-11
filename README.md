@@ -18,6 +18,6 @@ This particular dashboard is based on test data from [this](https://kdrachtidis.
 4. Open your favorit browser and type in `http://localhost:80/Teckel-Dashboard`. Now you should be able to see the Teckel Dashboard.
 
 ### 3. Use it for your prototype
-1. For using the dashboard for your prototype you just have to exchange the files contained in the `\model` subfolder of the Teckel-Dashboard folder. Therefor delete all files that are currently contained in that folder and put your `UseCaseData.json` file and all other [parsed](https://github.wdf.sap.corp/teckel/Teckel-Parser) files into that folder.
+1. For using the dashboard for your prototype you just have to exchange the files contained in the `\model` subfolder of the Teckel-Dashboard folder. Therefor delete all files that are currently contained in that folder and put your `UseCaseData.json` file and all other [parsed](https://github.com/kdrachtidis/java-teckel-parser) files into that folder.
 2. If you now refresh your browser window you should see the Teckel-Dashboard containing your data.
 
