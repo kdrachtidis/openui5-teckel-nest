@@ -3,7 +3,7 @@
 ![https://kdrachtidis.github.io/bootstrap-teckel-tutorial/](https://kdrachtidis.github.io/bootstrap-teckel-tutorial/img/Teckel-Default@1x.png "Teckel")
 
 Repository for the dashboard for analyzing data created by our [user research tracking tool for behavioral analysis](https://github.com/SAP/ux-tracking-tool) (Teckel).<br />
-This particular dashboard is based on test data from [this](https://ux-teckel.github.io/openui5-tool-landscape-prototype/) prototype - Test it!
+This particular dashboard is based on test data from [this](https://kdrachtidis.github.io/openui5-teckel-master-detail/) prototype - Test it!
 
 ## How to use it!
 ### 1. Install local webserver (if you already have one you can skip this step)
@@ -12,7 +12,7 @@ This particular dashboard is based on test data from [this](https://ux-teckel.gi
 3. Open your favorit browser and type in `http://localhost:80` or `http://localhost:8080` if you changed to port. If you can see a page your webserver is all set up.
 
 ### 2. Clone this repository to your system or download zip-file
-1. Open our [repository](https://github.wdf.sap.corp/teckel/Teckel-Dashboard).
+1. Open our [repository](https://github.com/kdrachtidis/openui5-teckel-nest/).
 2. Either clone the repository to your system or if you do not have installed git download the zip-file containing the java project and unzip it.
 3. Place the unziped folder into `\XAMPP\htdocs`.
 4. Open your favorit browser and type in `http://localhost:80/Teckel-Dashboard`. Now you should be able to see the Teckel Dashboard.
